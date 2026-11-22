@@ -101,7 +101,8 @@ public:
             { "update", SEC_DEVELOPER, true, nullptr, "", nullptr, 0, "", 0, HandleAHBotUpdateCommand },
             { "reload", SEC_DEVELOPER, true, nullptr, "", nullptr, 0, "", 0, HandleAHBotReloadCommand },
             { "empty",  SEC_DEVELOPER, true, nullptr, "", nullptr, 0, "", 0, HandleAHBotEmptyCommand },
-            { "help",   SEC_DEVELOPER, true, nullptr, "", nullptr, 0, "", 0, HandleAHBotHelpCommand }
+            { "help",   SEC_DEVELOPER, true, nullptr, "", nullptr, 0, "", 0, HandleAHBotHelpCommand },
+            { nullptr,  0, false, nullptr, "", nullptr, 0, "", 0, nullptr }
         };
 
         static std::vector<ChatCommand> commandTable = {
